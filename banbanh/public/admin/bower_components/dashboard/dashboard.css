@@ -1,0 +1,79 @@
+    body{   
+    font-family: Arial, Helvetica, sans-serif;  
+    font-size: 12px;
+    }
+    .serviceBox{    
+    background:#fff0f0;    
+    padding: 35px 0 1px;    
+    text-align: center;
+    margin-bottom: 30px;
+    }
+    .serviceBox:hover{    
+    background: #fff;    
+    box-shadow:0 0px 10px #C9C9C9;    
+    transition:all 0.4s ease-in-out;    
+    -webkit-transition:all 0.4s ease-in-out;    
+    -moz-transition:all 0.4s ease-in-out;    
+    -ms-transition:all 0.4s ease-in-out;    
+    -o-transition:all 0.4s ease-in-out;
+    }
+     
+    .serviceBox .service-icon{    
+    width: 100px;    
+    height: 100px;    
+    border-radius: 50%;    
+    background: #31353d;    
+    color: #fff;    
+    font: lighter 50px/100px "Arial";    
+    margin: 0 auto;
+    }
+     
+    .serviceBox:hover .service-icon{    
+    background: #8dbf41;    
+    transition:all 0.4s ease-in-out;    
+    -webkit-transition:all 0.4s ease-in-out;    
+    -moz-transition:all 0.4s ease-in-out;    
+    -ms-transition:all 0.4s ease-in-out;    
+    -o-transition:all 0.4s ease-in-out;
+    }
+     
+    .serviceBox .title{    
+    color: #31353d;    
+    font: lighter 30px/30px "Arial";
+    }
+     
+    .serviceBox .title span {    
+    color: #8dbf41;    
+    font: lighter 40px/40px "Arial";   
+    display: block;
+    }
+     
+    .serviceBox .description{    
+    color: #31353d;    
+    padding: 0 16px;    
+    font: lighter 14px/23px "Arial";    
+    margin:25px 0 60px;
+    }
+     
+     
+    .serviceBox .read a {    
+    background: #8dbf41;    
+    display: inline-block;    
+    padding: 12px 20px;    
+    color: #fff;    
+    font: 500 14px/18px "Arial";    
+    float: left;
+    }
+    .serviceBox .read a:hover{    
+    background: #31353d;    
+    color: #fff;    
+    text-decoration: none;
+    }
+    .serviceBox a:hover{    
+    text-decoration: none;
+    }
+     
+    @media screen and (max-width: 990px){    
+    .serviceBox{        
+    margin-bottom: 60px;    
+    }}
